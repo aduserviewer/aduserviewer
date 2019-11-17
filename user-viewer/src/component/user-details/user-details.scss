@@ -1,0 +1,30 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+.user-details {
+    h1 {
+        color: #527696;
+    }
+
+    // .card-body {
+    //     height: 90vh;
+    // }
+
+    img {
+        border-radius: 15px;
+    }
+
+    label {
+        text-align: left;
+        color: $gray-500;
+    }
+
+    .val {
+        label {
+            color: #527696;
+        }
+    }
+
+    .container.attributes {
+        font-size: $font-size-base * 2;
+    }
+}
